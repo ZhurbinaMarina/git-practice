@@ -1,0 +1,17 @@
+1. Создайте новый файл с именем script.bash
+
+touch script.bash
+
+2. Откройте созданный файл script.bash для редактирования. Стандартный текстовый редактор в Linux Ubuntu это gedit. Выполните в терминале
+
+gedit script.bash
+
+3. Впишите следующий скрипт
+
+#!/bin/bash
+
+echo "Welcome to ITMO University"
+
+4. Сохраните файл. Закройте текстовый редактор gedit. Запустите bash-скрипт, выполнив в терминале
+
+bash script.bash
